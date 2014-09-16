@@ -15,6 +15,7 @@
 		1B7702DA19C7C98E00FA07CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7702D819C7C98E00FA07CF /* LaunchScreen.xib */; };
 		1B7702E619C7C98E00FA07CF /* OperationalKeyValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7702E519C7C98E00FA07CF /* OperationalKeyValueTests.m */; };
 		1B7702F119C7C9A600FA07CF /* SampleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7702F019C7C9A600FA07CF /* SampleOperation.m */; };
+		1B7702F419C7CF0E00FA07CF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1B7702F219C7CF0E00FA07CF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		1B7702E519C7C98E00FA07CF /* OperationalKeyValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationalKeyValueTests.m; sourceTree = "<group>"; };
 		1B7702EF19C7C9A600FA07CF /* SampleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleOperation.h; sourceTree = "<group>"; };
 		1B7702F019C7C9A600FA07CF /* SampleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleOperation.m; sourceTree = "<group>"; };
+		1B7702F219C7CF0E00FA07CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		1B7702BD19C7C98E00FA07CF = {
 			isa = PBXGroup;
 			children = (
+				1B7702F219C7CF0E00FA07CF /* README.md */,
 				1B7702C819C7C98E00FA07CF /* OperationalKeyValue */,
 				1B7702E219C7C98E00FA07CF /* OperationalKeyValueTests */,
 				1B7702C719C7C98E00FA07CF /* Products */,
@@ -226,6 +229,7 @@
 			files = (
 				1B7702D219C7C98E00FA07CF /* ViewController.m in Sources */,
 				1B7702CF19C7C98E00FA07CF /* AppDelegate.m in Sources */,
+				1B7702F419C7CF0E00FA07CF /* README.md in Sources */,
 				1B7702CC19C7C98E00FA07CF /* main.m in Sources */,
 				1B7702F119C7C9A600FA07CF /* SampleOperation.m in Sources */,
 			);
@@ -418,6 +422,7 @@
 				1B7702EB19C7C98E00FA07CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B7702EC19C7C98E00FA07CF /* Build configuration list for PBXNativeTarget "OperationalKeyValueTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				1B7702EE19C7C98E00FA07CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

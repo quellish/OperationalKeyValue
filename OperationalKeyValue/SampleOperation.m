@@ -37,8 +37,21 @@
     return YES;
 }
 
+// For the truly paranoid, to send a notification for the *keyPath* isFinished,
+// register "finished" as a dependency. This is the correct way to remain KVO compliant when sending
+// isFinished.
+
++ (NSSet *) keyPathsForValuesAffectingIsFinished {
+    NSSet   *result = [NSSet setWithObject:@"finished"];
+    return result;
+}
+
++ (NSSet *) keyPathsForValuesAffectingIsExecuting {
+    NSSet   *result = [NSSet setWithObject:@"executing"];
+    return result;
+}
+
 /***
- 
 // Don't need to do this, automatic property notifications are already active.
 + (BOOL) automaticallyNotifiesObserversOfFinished {
     return YES;

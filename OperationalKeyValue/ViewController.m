@@ -24,6 +24,8 @@
     
     [sample addObserver:self forKeyPath:@"executing" options:[self observationOptions] context:(void *)self];
     [sample addObserver:self forKeyPath:@"finished" options:[self observationOptions] context:(void *)self];
+    [sample addObserver:self forKeyPath:@"isFinished" options:[self observationOptions] context:(void *)self];
+
     [self setOperation:sample];
     
     [[NSOperationQueue mainQueue] addOperation:sample];
